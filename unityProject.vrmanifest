@@ -5,7 +5,7 @@
       "app_key": "application.generated.unity.tyantoyarusince0814.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "D:\\Unity\\Sotusei_2020\\tyantoyaru-since-0814\\actions.json",
+      "action_manifest_path": "D:\\Sotusei\\actions.json",
       "strings": {
         "en_us": {
           "name": "tyantoyaru-since-0814 [Testing]"
