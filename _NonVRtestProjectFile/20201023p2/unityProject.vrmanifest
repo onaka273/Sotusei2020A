@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.20201023p2.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "D:\\Unity\\Sotusei_2020\\tyantoyaru-since-0814\\_NonVRtestProjectFile\\20201023p2\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "20201023p2 [Testing]"
+        }
+      }
+    }
+  ]
+}

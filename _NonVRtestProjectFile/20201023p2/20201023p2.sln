@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteamVR", "SteamVR.csproj", "{a68e1d6c-dec4-c9c2-2c9f-9142a524b95f}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteamVR_Editor", "SteamVR_Editor.csproj", "{6f90ec9e-5b43-20ea-6dd5-806dbcca55a7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteamVR_Input_Editor", "SteamVR_Input_Editor.csproj", "{fdd9ee46-aa6b-886a-f3f8-6b8b19d49213}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteamVR_Windows_EditorHelper", "SteamVR_Windows_EditorHelper.csproj", "{3a1e9d49-113a-c3e7-9c1e-ba43ae358e85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{a68e1d6c-dec4-c9c2-2c9f-9142a524b95f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{a68e1d6c-dec4-c9c2-2c9f-9142a524b95f}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6f90ec9e-5b43-20ea-6dd5-806dbcca55a7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6f90ec9e-5b43-20ea-6dd5-806dbcca55a7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{fdd9ee46-aa6b-886a-f3f8-6b8b19d49213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{fdd9ee46-aa6b-886a-f3f8-6b8b19d49213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3a1e9d49-113a-c3e7-9c1e-ba43ae358e85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3a1e9d49-113a-c3e7-9c1e-ba43ae358e85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
