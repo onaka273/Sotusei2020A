@@ -91,7 +91,7 @@ private GameObject objectInHand;
 
     void Start()
     {
-    GameObject obj = (GameObject)Resources.Load ("RwCube");
+   
     }
     //プレハブをロード
 
@@ -104,25 +104,24 @@ private GameObject objectInHand;
     {
         if (collidingObject)
         {
+
+        // GameObject obj2 = (GameObject)Resources.Load ("testobj");
+        // Cube = GameObject.Find("Cube");
+
+        // Vector3 cubep = Cube.transform.position;
+        //  Instantiate (obj2, new Vector3(0,0,0), Quaternion.identity);
+        // GameObject.Find("testobj").transform.position = cubep.transfrom.position;
+        //コントロ－ラーの位置を取得したいけどできてない！
+        
         GrabObject();
+        //プレイヤーがグラブアクションをトリガーしたら、オブジェクトをグラブします
         }
     }
-    //プレイヤーがグラブアクションをトリガーしたら、オブジェクトをグラブします。
-
+    
     if (grabAction.GetLastStateUp(handType))
     {
         if (objectInHand)
         {
-        Vector3 tmp = GameObject.Find("Controller (left)").transform.position;
-        //コントロ－ラーの位置を取得
-        float x = tmp.x;
-        float y = tmp.y;
-        float z = tmp.z;
-
-        Debug.Log(x);
-        Debug.Log(y);
-        Debug.Log(z);
-
         ReleaseObject();
         }
     }
