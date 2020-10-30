@@ -16,6 +16,8 @@ private GameObject collidingObject;
     public SteamVR_Behaviour_Pose controllerPose;
     //テレポートアクションへの参照
 private GameObject objectInHand; 
+
+private int flg = 0;
     // 現在取得しているGameObjectへの参照として機能します。
 
     private void SetCollidingObject(Collider col)
@@ -32,6 +34,10 @@ private GameObject objectInHand;
     public void OnTriggerEnter(Collider other)
     {
     SetCollidingObject(other);
+
+        
+        
+        
     }
     //トリガーコライダーが別のコライダーに入ると、他のコライダーを潜在的なグラブターゲットとして設定します（？）
 
@@ -102,6 +108,16 @@ private GameObject objectInHand;
 
     if (grabAction.GetLastStateDown(handType))
     {
+
+
+        if (flg == 0) {
+            GameObject testobj = (GameObject) Resources.Load("testobj");
+            Instantiate(testobj, grabAction.gameObject.transform, Quaternion.identity);
+            flg =1;
+        }
+
+        Debug.Log("掴んだ");
+
         if (collidingObject)
         {
 
@@ -116,6 +132,8 @@ private GameObject objectInHand;
         GrabObject();
         //プレイヤーがグラブアクションをトリガーしたら、オブジェクトをグラブします
         }
+
+        
     }
     
     if (grabAction.GetLastStateUp(handType))
