@@ -110,13 +110,13 @@ private int flg = 0;
     {
 
 
-        if (flg == 0) {
-            GameObject testobj = (GameObject) Resources.Load("testobj");
-            Instantiate(testobj, grabAction.gameObject.transform, Quaternion.identity);
-            flg =1;
-        }
+        //if (flg == 0) {
+        //    GameObject testobj = (GameObject) Resources.Load("testobj");
+        //    Instantiate(testobj, grabAction.gameObject.transform, Quaternion.identity);
+        //    flg =1;
+        //}
 
-        Debug.Log("掴んだ");
+        //Debug.Log("掴んだ");
 
         if (collidingObject)
         {
